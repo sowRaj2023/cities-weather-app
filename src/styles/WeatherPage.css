@@ -1,0 +1,40 @@
+.weather-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .weather-page.sunny {
+    background-color: #f5f5f5;
+  }
+  
+  .weather-page.cloudy {
+    background-color: #e0e0e0;
+  }
+  
+  .weather-page.rainy {
+    background-color: #b0bec5;
+  }
+  
+  .weather-page.default-weather {
+    background-color: #ffffff;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #bdc3c7;
+  }
+  
+  button:hover:not(:disabled) {
+    background-color: #2980b9;
+  }
+  
+  
